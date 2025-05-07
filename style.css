@@ -25,7 +25,9 @@ h1 {
   width: 260px;
   text-align: center;
 }
-.image-block img {
+/* 保持原圖與分割圖一致大小與樣式 */
+.image-block img,
+.image-block canvas {
   max-width: 200px;
   max-height: 120px;
   border-radius: 4px;
